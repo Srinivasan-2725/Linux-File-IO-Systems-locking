@@ -21,7 +21,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## 1.To Write a C program that illustrates files copying 
-
+```
 char block[1024];
 int in, out;
 ssize_t nread;
@@ -60,12 +60,11 @@ close(out);
 return EXIT_SUCCESS;
 
 
-
-
+```
 
 ## 2.To Write a C program that illustrates files locking
 
-
+```
 
 #include <fcntl.h>
 #include <stdio.h>
@@ -132,7 +131,7 @@ int main(int argc, char *argv[]) {
 }
 
 
-
+```
 
 ## OUTPUT
 
